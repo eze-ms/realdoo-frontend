@@ -4,7 +4,17 @@
 # 📄 Descripción
 Este proyecto implementa el frontend de una plataforma de autenticación desarrollada en Angular 16. Contiene dos formas de inicio de sesión: login tradicional con email y contraseña, y login mediante SSO simulado. El formulario está maquetado de forma fiel al diseño original en Figma e incluye validación de campos, feedback visual de errores y confirmación tras éxito
 
+![Frontend](https://img.shields.io/badge/frontend-Angular%2016-dd0031?style=flat-square)
+![Estilos](https://img.shields.io/badge/estilos-Angular%20Material-ff4081?style=flat-square)
+![Forms](https://img.shields.io/badge/formulario-Reactive%20Forms-blue?style=flat-square)
+
+
 ---
+
+![Frontend](https://img.shields.io/badge/frontend-Angular%2016-dd0031?style=flat-square)
+![Estilos](https://img.shields.io/badge/estilos-Angular%20Material-ff4081?style=flat-square)
+![Forms](https://img.shields.io/badge/formulario-Reactive%20Forms-blue?style=flat-square)
+
 
 ## ✨ Funcionalidades
 - Maquetación precisa del login según diseño en Figma.
