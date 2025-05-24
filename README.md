@@ -11,10 +11,6 @@ Este proyecto implementa el frontend de una plataforma de autenticación desarro
 
 ---
 
-![Frontend](https://img.shields.io/badge/frontend-Angular%2016-dd0031?style=flat-square)
-![Estilos](https://img.shields.io/badge/estilos-Angular%20Material-ff4081?style=flat-square)
-![Forms](https://img.shields.io/badge/formulario-Reactive%20Forms-blue?style=flat-square)
-
 
 ## ✨ Funcionalidades
 - Maquetación precisa del login según diseño en Figma.
