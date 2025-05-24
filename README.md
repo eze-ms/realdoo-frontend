@@ -70,7 +70,7 @@ Se ha probado el flujo completo de forma manual:
 
 ## 🛠️ Instalación
 ```bash
-git clone https://github.com/tu-usuario/auth-frontend.git
+git clone https://github.com/eze-ms/realdoo-frontend
 
 ```
 
