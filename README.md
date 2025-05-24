@@ -77,7 +77,8 @@ git clone https://github.com/tu-usuario/auth-frontend.git
 #### Instalar dependencias 
 ```bash
 npm install
-npm run start
+ng serve (Local con CLI instalado)
+npm run start (No requiere de Angular CLI global)
 ```
 
 ---
