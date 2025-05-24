@@ -1,0 +1,67 @@
+<div class="login-page">
+  <div class="login-left">
+    <img src="assets/Developer activity-amico 1.svg" alt="Ilustración de acceso">
+  </div>
+
+    <div class="login-right">
+        <div class="login-card">
+            <img src="assets/realdooh.svg" alt="Logo realdooh" class="logo">
+
+            <div class="login-box">
+                <div *ngIf="errorMessage" class="error-message">
+                    {{ errorMessage }}
+                </div>
+                <div *ngIf="successMessage" class="success-message">
+                    {{ successMessage }}
+                </div>
+
+                <h1>Inicia sesión en tu cuenta</h1>
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                   <mat-form-field appearance="outline" class="full-width" hideRequiredMarker>
+                        <mat-label>Correo electrónico</mat-label>
+                            <input matInput formControlName="email" placeholder="Introduce tu email">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="outline" class="full-width" hideRequiredMarker>
+                        <mat-label>Contraseña</mat-label>
+                        <input matInput [type]="hidePassword ? 'password' : 'text'" formControlName="password" placeholder="Introduce tu contraseña">
+                        <button mat-icon-button matSuffix type="button" (click)="togglePasswordVisibility()">
+                            <mat-icon>{{ hidePassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+                        </button>
+                    </mat-form-field>
+
+
+                    <button mat-raised-button color="primary" class="full-width submit-button" type="submit">
+                    ENTRAR
+                    </button>
+                </form>
+
+                <p class="other-login-label">Otras formas de acceso:</p>
+
+                <button
+                    mat-raised-button
+                    color="accent"
+                    class="full-width sso-button"
+                    type="button"
+                    (click)="onSsoLogin()">
+                    ENTRAR CON SSO
+                </button>
+
+                <p class="register-link">
+                    ¿No tienes cuenta? <a href="#">Regístrate</a>
+                </p>
+            </div>
+        </div>
+
+        <footer class="login-footer">
+            <div class="box-idioma">
+                <img src="assets/v-icon-right.png" alt="earth" class="earth">
+                <span>IDIOMA: ES</span>
+                <img src="assets/v-icon-left.png" alt="icon-left" class="icon-left">
+
+            </div>
+            
+            <img src="assets/Econocom.svg" alt="Logo empresa" class="footer-logo">
+        </footer>
+    </div>
+</div>
